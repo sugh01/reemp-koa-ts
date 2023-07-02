@@ -1,0 +1,68 @@
+/**
+ *    Custom Stylesheet
+ *
+ *    ==========================
+ *    SCSS File Inclusion Orders
+ *    ==========================
+ *
+ *    #helpers
+ *      - bootstrap
+ 
+ *    #base
+ *      - var
+ *      - color_vars
+ *      - reset
+ *      - base
+ *      - keyframes
+ *      - typography
+ *
+ *    #components
+ *
+ *    #modules
+*/
+
+
+/*
+    =====
+    #base
+    =====
+*/
+@import 'base/vars';
+@import 'base/color_vars';
+@import 'base/reset';
+@import 'base/base';
+@import 'base/keyframes';
+@import 'base/typography';
+
+/*
+    ===========
+    #components
+    ===========
+*/
+@import 'component/checkbox';
+@import 'component/button';
+@import 'component/pagination';
+@import 'component/mixin';
+
+/*
+    =====================
+    #Common SASS modules 
+    =====================
+*/
+@import 'modules/login';
+@import 'modules/dashboard';
+@import 'modules/header';
+@import 'modules/sidenav';
+@import 'modules/main-content';
+@import 'modules/tab';
+@import 'modules/card';
+@import 'modules/table';
+@import 'modules/info-block';
+@import 'modules/footer';
+@import 'modules/toast';
+@import 'modules/bootbox';
+/*
+    =============
+    #Page Modules
+    =============
+*/

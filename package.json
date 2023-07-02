@@ -1,0 +1,32 @@
+{
+  "name": "reemp-koa-ts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc && cpy 'src/views/**' 'dist/src/views'",
+    "start": "node dist/src/app.js"
+  },
+  "dependencies": {
+    "@types/ejs": "^3.1.2",
+    "@types/koa": "^2.13.6",
+    "@types/koa-bodyparser": "^4.3.10",
+    "@types/koa-ejs": "^4.3.0",
+    "@types/koa-mount": "^4.0.2",
+    "@types/koa-router": "^7.4.4",
+    "@types/koa-session": "^6.4.1",
+    "@types/koa-static": "^4.0.2",
+    "ejs": "^3.1.9",
+    "koa": "^2.14.2",
+    "koa-bodyparser": "^4.4.1",
+    "koa-ejs": "^4.3.0",
+    "koa-mount": "^4.0.0",
+    "koa-router": "^12.0.0",
+    "koa-session": "^6.4.0",
+    "koa-static": "^5.0.0"
+  },
+  "devDependencies": {
+    "cpy-cli": "^5.0.0",
+    "typescript": "^5.1.6"
+  }
+}

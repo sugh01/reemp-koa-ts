@@ -1,0 +1,124 @@
+.o-banner{
+	padding:80px 0px;
+	background:#EEF9FF;
+	h1{
+	   font-size: 48px;
+	   line-height: 1.2em;
+	   color: #0C4468;
+	   font-weight: 300;
+	   b{
+	     font-weight:bold;
+	   }
+	}
+
+	.o-anchor{
+	      text-decoration:none;
+	 }
+	.o-enroll-block{
+	   background: #eee; 
+	   padding: 25px 25px;
+	   border-radius:0px 0px 0px 20px;
+	   .icon{
+	     margin-bottom:25px;
+	     img{
+	        max-height:50px;
+	     }
+	   }
+	   .text{
+	     font-size:14px;
+	     color:$white;
+	     line-height:1.8em;
+	     text-transform:uppercase;
+	     margin-bottom:20px;
+	     span{
+	        display:block;
+	        font-size:27px;
+	     }
+	   }
+	   .icon-arrow{
+	      text-align:right;
+	      img{
+	        max-height:25px;
+	        display:inline-block;
+	      }
+	   }
+	   &.js{
+	     background: #0095D9; 
+	   }
+	   &.req{
+	     background: #17B077; 
+	   }
+	   &.men{
+	     background: #0A568F; 
+	   }
+	}
+}
+
+
+.o-mid-block{
+	padding:70px 0px;
+	background:#A8E4FB;
+	h2{
+	   font-size: 36px;
+	   line-height: 1.2em;
+	   color: #0C4468;
+	   font-weight: 600;
+	   margin-bottom:20px;
+	}
+	.card{
+	   &.o-card-block{
+	      flex-direction:row;
+	      border:none;
+	      padding:25px 30px;
+	      align-items:center;
+	      border-radius:6px;
+	      .icon-area{
+	         margin-right:20px;
+	         img{
+	           max-height:80px;
+	         }
+	      }
+	      .text-area{
+	         h5{
+	           margin-bottom: 9px;
+    		   font-size: 18px;
+	           color:#0C4468;
+	         }
+	         p{
+	           font-size:12px;
+	           color:#7E898F;
+	         }
+	      }
+	   }
+	}
+}
+
+.o-counter-block{
+	padding:25px 0px;
+	background:#132D50;
+	.o-counter-box{
+         h3{
+           margin-bottom: 0px;
+		   font-size: 40px;
+		   line-height:1em;
+           color:#fff;
+         }
+         p{
+           font-size:17px;
+           color:#A2C3D5;
+           margin-bottom:0px;
+         }
+    }
+}
+
+.o-color-bg-area{
+	background: rgb(1,141,206);
+    background: linear-gradient(180deg, rgba(1,141,206,1) 0%, rgba(17,56,94,1) 100%);
+    width:100%;
+    min-height:100vh;
+    padding:40px 80px;
+}
+
+
+
+

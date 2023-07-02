@@ -1,0 +1,33 @@
+@mixin primary($primary-color) {
+  background:$primary-color;
+}
+@mixin secondary($secondary-color) {
+  background:$secondary-color;
+}
+@mixin tertiary($tertiary-color) {
+  background:$tertiary-color;
+}
+
+
+/*body.orange-theme{
+	.sidebar-wrapper{
+	   @include primary($orange);
+	}
+	.sidebar-menu{
+	  ul{
+	    li{
+	      &.active{
+	        @include secondary(#be522f);
+	      }
+	    }
+	  }
+	}
+	.sidebar-footer{
+	   @include secondary(#be522f);
+	}
+	.card{
+      .card-header{
+         @include tertiary(#d8633d);
+      }
+    }  
+}*/

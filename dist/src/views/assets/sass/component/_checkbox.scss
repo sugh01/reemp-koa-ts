@@ -1,0 +1,82 @@
+.form-check-input{
+    width: 1.35em;
+    height: 1.35em;
+    margin-top: 0.175em;
+    margin-right:9px;
+    &:checked{
+        background-color: #707070;
+        border-color: #707070;
+    }
+}
+/*.form-check-input:checked[type=radio]{
+  background-image:url(../images/radio.svg) no-repeat center!important;
+}*/
+
+
+
+form{
+   .form-check{
+       margin-right:18px;
+      .form-check-label{
+         font-weight: 500;
+         font-size: 14px;
+      }
+   }
+   .form-control{
+      border:solid 1px #72ABC9;
+      border-radius:6px;
+      min-height: 44px;
+      padding: 8px 16px;
+   }
+   .form-label{
+     font-weight: 500;
+     margin-bottom: 6px;
+     color:#1A2B36;
+   }
+
+}
+
+
+
+input:checked + .slider {
+  background-color: #eee;
+}
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+input:checked + .slider:before {
+  -webkit-transform: translateX(20px);
+  -ms-transform: translateX(20px);
+  transform: translateX(20px);
+}
+.slider.round {
+  border-radius: 34px;
+}
+.slider.round:before {
+  border-radius: 50%;
+}
+
+input[type="file" i] {
+  padding:8px 0px;
+}
+
+.form-select{
+  padding: 12px 16px;
+  background-color: $white;
+  border: 1px solid #72ABC9;
+  border-radius:6px;
+}
+.select2{
+  &.select2-container--default{
+      .select2-selection--single{
+       border: 1px solid #D9E1E8!important;
+       height:40px;
+       .select2-selection__rendered{
+         line-height:38px;
+       }
+       .select2-selection__arrow{
+          height:38px;
+       }
+    }
+  }
+}
